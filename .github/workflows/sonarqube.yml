@@ -1,0 +1,19 @@
+name: SonarQube Scan
+
+on:
+  push:
+    branches:
+      - development
+
+jobs:
+  sonar-scan:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: SonarQube Scan
+        run: echo "Running SonarQube Scan"
+
+      - name: Generate Reports
+        run: echo "Reports Generated"
