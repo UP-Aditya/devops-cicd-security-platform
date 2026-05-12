@@ -1,3 +1,5 @@
+[![DevOps CI Pipeline](https://github.com/UP-Aditya/devops-cicd-security-platform/actions/workflows/ci.yml/badge.svg)](https://github.com/UP-Aditya/devops-cicd-security-platform/actions/workflows/ci.yml)
+
 # DevOps CI/CD Security Platform
 
 This project demonstrates:
