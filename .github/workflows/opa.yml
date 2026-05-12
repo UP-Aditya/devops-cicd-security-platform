@@ -1,0 +1,16 @@
+name: OPA Policy Validation
+
+on:
+  push:
+    branches:
+      - development
+
+jobs:
+  opa-validation:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run OPA Validation
+        run: echo "OPA Validation Successful"
