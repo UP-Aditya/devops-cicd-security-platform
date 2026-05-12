@@ -1,4 +1,8 @@
 # DevOps CI/CD Security Platform
+# Important Notice
+
+This project is distributed across multiple branches to simulate a real-world DevOps workflow and environment separation.
+
 
 A complete DevOps project demonstrating CI/CD automation, security scanning, policy validation, Linux administration, Git workflows, and deployment automation using modern DevOps tools.
 ---
